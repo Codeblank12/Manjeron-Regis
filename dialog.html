@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fill Dialog</title>
+	<style>
+	body{
+    margin: 0;
+    padding: 0;
+    background-color:forestgreen;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: sans-serif;
+}
+.dialog{
+    text-align: center;
+	width: 380px;
+    padding: 25px 25px 25px 25px;
+    color: #778899;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	box-shadow: 0 20px 25px rgba(0,0,10,.10);
+	border-radius: 25px;
+}
+h2{
+	margin: 20px 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+.dialog input[type="text"], input[type="text"]{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    outline: none;
+	background: transparent;
+    height: 40px;
+    color: #000;
+    padding-left: 2px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+.dialog input[type="submit"]{
+    border:none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    height: 35px;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    background: #00FF7F;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    border-radius: 5px;
+	
+}
+.dialog input[type="submit"]:hover{
+    cursor: pointer;
+    background: skyblue;
+}
+	</style>
+	</head>
+	
+	
+<body>
+
+<div class="dialog">
+	<h2>FILL DIALOG</h2>
+	<form>
+				<div class="inputBox"><br>
+				<input type="text" name="" required="">
+				<label>Name</label>
+				</div>
+				<div class="inputBox"><br>
+				<input type="text" name="" required="">
+				<label>ID Number</label>
+				</div>
+		<tr><br><br>
+				<td>Grade: </td>
+				<td>
+					<select>
+					<option value="1">1.00</option>
+					<option value="1.25">1.25</option>
+					<option value="1.50">1.50</option>
+					<option value="1.75">1.75</option>
+					<option value="2">2.00</option>
+					<option value="2.25">2.25</option>
+					<option value="2.50">2.50</option>
+					<option value="2.75">2.75</option>
+					<option value="3.00">3.00</option>
+					</select>
+					</td>
+		</tr><br><br><br>
+		<input type="submit" name="" value="Submit">
+	</form>
+	</div>
+</body>
+</html>
